@@ -1,0 +1,3 @@
+directives used
+v-on:click
+instead of v- we can use"@"

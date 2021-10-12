@@ -5,6 +5,12 @@ data(){
         author: 'Brandon Sanderson',
         age: 45
     }
+},
+methods: {
+    changeTitle(title){
+        //this.title = 'Word of Radinance'
+        this.title=title
+    }
 }
 })
 
