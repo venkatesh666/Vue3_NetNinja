@@ -1,3 +1,6 @@
 directives used
 v-on:click
 instead of v- we can use"@"
+using v-if
+v-if loads from js. The element is removed when false. More expensive because it manipulates DOM
+v-show loads from css. The element is hidden in this. Easy because it just hides and unhides unlike v-if
